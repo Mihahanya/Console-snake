@@ -11,6 +11,7 @@ move = [1, 0]
 parts_of_snake = [[3+i, 3] for i in range(3)]
 apple_pos = [randint(0, w-1), randint(4, h-1)]
 
+os.system('title Snake')
 os.system(f'mode con cols={w*2+margin*4} lines={h+margin*2}')
 timer = time()
 
